@@ -25,6 +25,16 @@ h1,h2,h3,h4,h5,h6 {
     gap: 10px;
 }
 
+.navImage h4 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.navImage span {
+    font-weight: 700;
+    font-size: 20px;
+}
+
 .navLinks {
     display: flex;
     align-items: center;
@@ -37,6 +47,10 @@ h1,h2,h3,h4,h5,h6 {
     color: #4F5665;
 }
 
+.navLinks a:hover{
+    color: #292c33;
+}
+
 a.signIn {
     color: #0B132A;
     font-weight: 700;
@@ -45,7 +59,7 @@ a.signIn {
 
 button.SignUp {
     background: none;
-    padding: 10px 40px;
+    padding: 10px 50px;
     border: 1px solid #F53855;
     border-radius: 50px;
     cursor: pointer;
@@ -53,8 +67,54 @@ button.SignUp {
     font-weight: 700;
 }
 
+button.SignUp:hover {
+    background-color: #F53855;
+    color: #fff;
+    transition: .3s ease;
+}
+
 .navButtons {
     display: flex;
     align-items: center;
     gap: 20px;
+}
+
+
+#s1 .s1-content {
+    min-height: 70vh;
+}
+
+#s1 .s1-left h1{
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 70px;
+    color: #0B132A;
+    padding-bottom: 20px;
+}
+
+.s1-left p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #4F5665;
+}
+
+.s1-left button {
+    background-color: #F53838;
+    border: none;
+    width: 250px;
+    height: 60px;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 5px 27px -8px #F53838;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.s1-left span {
+    font-weight: 700;
+}
+
+.s1-right img {
+    width: 560px;
 }
