@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik", sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+
+/* #navbar {
+    height: 100px;
+} */
+
+.navigationBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+}
+
+.navImage {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navLinks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navLinks a {
+    margin: 0 30px;
+    text-decoration: none;
+    color: #4F5665;
+}
+
+a.signIn {
+    color: #0B132A;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+button.SignUp {
+    background: none;
+    padding: 10px 40px;
+    border: 1px solid #F53855;
+    border-radius: 50px;
+    cursor: pointer;
+    color: #F53855;
+    font-weight: 700;
+}
+
+.navButtons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
